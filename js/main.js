@@ -18,7 +18,7 @@
 
     // Navbar on scrolling
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() >= 0) {
             $('.navbar').fadeIn('slow').css('display', 'flex');
         } else {
             $('.navbar').fadeOut('slow').css('display', 'none');
@@ -120,6 +120,17 @@
         dots: true,
         loop: true,
     });
+
+    // Force a hover to see the effect
+    const share = document.querySelector('.share');
+
+    setTimeout(() => {
+    share.classList.add("hover");
+    }, 1000);
+
+    setTimeout(() => {
+    share.classList.remove("hover");
+    }, 3000);
 
     
 })(jQuery);

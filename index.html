@@ -25,6 +25,10 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:700'><link rel="stylesheet" href="./style.css">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -44,9 +48,9 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary fw-bold m-0">Учитель</h1>
-        </a>
+        <!-- <a href="index.html" class="navbar-brand d-block d-lg-none"> -->
+            <!-- <h1 class="text-primary fw-bold m-0">Учитель</h1> -->
+        <!-- </a> -->
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -57,9 +61,9 @@
                 <a href="#skill" class="nav-item nav-link">Навыки</a>
                 <!-- <a href="#service" class="nav-item nav-link">Сервисы</a> -->
             </div>
-            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+            <!-- <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
                 <h1 class="text-primary fw-bold m-0">Учитель</h1>
-            </a>
+            </a> -->
             <div class="navbar-nav me-auto py-0">
                 <a href="#project" class="nav-item nav-link">Проекты</a>
                 <!-- <a href="#team" class="nav-item nav-link">Команда</a> -->
@@ -72,25 +76,40 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-light my-6 mt-0" id="home">
+    <div class="container-fluid bg-home mt-0" id="home">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
-                    <!-- <h3 class="text-primary mb-3">Я</h3> -->
-                    <h1 class="display-3 mb-3">Александра Кузнецова</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Добро пожаловать на страницу, Источник вдохновения и знаний</div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="" class="btn btn-primary py-3 px-4 me-5">Скачать резюме</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0" style="position: relative;">
+                    <!-- <h3 class="text-primary mb-3">Я</h3>-->
+                    <!-- <h1 class="display-4 text-center mb-3">Александра Викторовна Кузнецова</h1>
+                    <p class="text-center">
+                        преподаватель информационных дисциплин первой квалификационной категории
+                    </p> -->
+                    <!-- <h2 class="typed-text-output d-inline"></h2> -->
+                    <!-- <div class="typed-text d-none">Добро пожаловать на страницу, Источник вдохновения и знаний</div> -->
+                    <!-- <div class="d-flex align-items-center pt-5"> -->
+                        <!-- <a href="" class="btn btn-primary py-3 px-4 me-5">Скачать резюме</a> -->
+                        <!-- <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
-                        </button>
+                        </button> -->
                         <!-- <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5> -->
-                    </div>
+                    <!-- </div> -->
+
+                    <!-- partial:index.partial.html -->
+                        <!-- <div class="share">
+                            <span><i class="fa fa-link"></i></span>
+                            <nav>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-google"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                            </nav>
+                        </div> -->
+                    <!-- partial -->
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/profile.png" alt="">
+                    <!-- <img class="img-fluid" src="img/teach.jpg" alt=""> -->
                 </div>
             </div>
         </div>
@@ -123,22 +142,37 @@
     <div class="container-xxl py-6" id="about">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center mb-5">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 text-center">Александра Викторовна Кузнецова</h1>
+                    <p class="text-center">
+                        преподаватель информационных дисциплин 
+                    </p>
+                    <div class="d-flex align-items-center justify-content-end mb-5">
                         <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">15</h1>
+                            <h1 class="display-2 mb-0">15</h1>
                             <h5 class="mb-0">Лет</h5>
                         </div>
-                        <h3 class="lh-base mb-0">Опыта преподавательской работы</h3>
+                        <h3 class="lh-base mb-0" style="max-width: 70%;">Опыта преподавательской работы</h3>
                     </div>
-                    <p class="mb-4">На пути к совершенству: опыт, знания и новые горизонты в преподавании</p>
+                    <!-- <p class="mb-4">На пути к совершенству: опыт, знания и новые горизонты в преподавании</p> -->
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Дата рождения: 25.05.1996</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Место работы: Донецкий Техникум Промавтоматики</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Высшкая квалификационная категория</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Веб-образование от основ до современных методик</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Персонализированный подход</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Читать далее</a>
+                     <div class="share">
+                        <span><i class="fa fa-link"></i></span>
+                        <nav>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                        </nav>
+                    </div>                  
+                    <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="">Читать далее</a> -->
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3 mb-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <img class="img-fluid mb-3" src="img/teach2.jpg" alt="">
+                   
+                    <!-- <div class="row g-3 mb-4">
                         <div class="col-sm-6">
                             <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
                         </div>
@@ -147,15 +181,15 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <h5 class="pe-3 me-3 mb-0">Студенты техникума</h5>
+                        <h5 class="pe-3 me-3 mb-0">Студенты техникума</h5> -->
                         <!-- <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-4">Исследования, творчество и профессионализм: повседневность студентов техникума</p>
                     <div class="d-flex align-items-center mb-3">
                         <h5 class="pe-3 me-3 mb-0">Технические проекты</h5>
-                        <!-- <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2> -->
-                    </div>
-                    <p class="mb-0">Эксперименты и стремление к успеху: жизнь студентов технического учебного заведения</p>
+                         <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2> -->
+                    <!-- </div>
+                    <p class="mb-0">Эксперименты и стремление к успеху: жизнь студентов технического учебного заведения</p> -->
                 </div>
             </div>
         </div>
