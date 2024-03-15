@@ -16,7 +16,7 @@
 
 .bg-home{
     /* background-image: url('../img/georgie-bg.jpg'); */
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../img/111.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../img/bg-head.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
