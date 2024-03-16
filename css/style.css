@@ -440,7 +440,8 @@
 
 .share {
     position: relative;
-    width: 360px;
+    display: inline-block;
+    /* width: 360px; */
     /* left: 55%; */
     /* margin-left: -110px; */
     top: 5%;
@@ -455,7 +456,7 @@
     font-size: 35px;
     text-transform: uppercase;
     position: absolute;
-    left: 45%;
+    left: 102%;
     margin-left: -100px;
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
