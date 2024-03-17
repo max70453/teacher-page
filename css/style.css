@@ -227,30 +227,38 @@
 }
 
 
-/*** Skills ***/
-#skill .progress {
+/*** testimonials ***/
+#testimonial .progress {
     height: 5px;
     border-radius: 5px;
 }
 
-#skill .progress .progress-bar {
+#testimonial .progress .progress-bar {
     width: 0px;
     border-radius: 5px;
     transition: 3s;
 }
 
-#skill .nav-pills .nav-link {
+#testimonial .nav-pills .nav-link {
     color: var(--dark);
 }
 
-#skill .nav-pills .nav-link.active {
+.nav-pills .nav-item{
+    width: 30% !important;
+}
+
+#testimonial .nav-pills .nav-link.active {
     color: #FFFFFF;
 }
 
-#skill .tab-content hr {
+#testimonial .tab-content hr {
     width: 30px;
+    margin: auto;
 }
 
+.img-fluid.mb-3{
+    width: 100%;
+}
 
 /*** Service ***/
 .service-item .bg-icon {
@@ -307,6 +315,21 @@
 
 
 /*** Team ***/
+.team-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .team-text{
+    margin-left: 22px;
+} */
+
+.team-icon{
+    margin-left: 15px;
+}
+
 .team-item img {
     transition: .5s;
 }
@@ -316,7 +339,7 @@
 }
 
 .team-item .team-text {
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 60px;
     bottom: 30px;
@@ -512,4 +535,10 @@
   }
   .share:hover a:hover, .share.hover a:hover {
     color: #fff;
+  }
+
+  .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
